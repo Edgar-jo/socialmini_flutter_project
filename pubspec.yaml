@@ -1,0 +1,63 @@
+name: prokit_socialmini
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.4
+  flutter_vector_icons: ^1.0.0
+
+  # Images
+  image_picker: ^0.8.5+1
+
+  # APIs
+  http: ^0.13.4
+  intl: ^0.17.0
+  html: ^0.15.0
+
+  # Common packages
+  nb_utils: ^4.5.0
+  google_fonts: ^2.3.2
+  dependencies:
+  package_info_plus: ^1.4.2
+  url_launcher: ^6.1.1
+
+  # Story
+  story_view: ^0.13.2
+  flutter_reaction_button: ^2.0.0+2
+
+  # State Management Technique
+  mobx: ^2.0.7
+  flutter_mobx: ^2.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^2.1.10
+  mobx_codegen: ^2.0.6
+
+    #flutter packages pub run build_runner build --delete-conflicting-outputs
+
+flutter:
+
+  uses-material-design: true
+
+
+  assets:
+    - images/socialmini/posts/
+    - images/socialmini/faces/
+    - images/socialmini/
+    - images/socialmini/icons/
+    - images/socialmini/gifs/
+
+
+
+
